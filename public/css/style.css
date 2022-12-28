@@ -1,0 +1,167 @@
+#navbarNav {
+  margin-right: 4%;
+  font-size: 125%;
+}
+#navbarNav li {
+  margin-left: 0.5em;
+}
+#navbarNav li a {
+  color: black;
+}
+#navbarNav .nav-link:hover {
+color: orange;
+font-weight: bolder;
+}
+
+.btn{
+  background-color: #53c6cd;
+  box-shadow: 1px 1px 1px 1px orange;
+}
+
+.navbar-toggler
+{
+  border: 5px solid orange;
+}
+
+.sectionOne
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sectionOne .img, .text
+{
+  width: 30%;
+}
+
+.sectionOne .text
+{
+  tetx-align: justify;
+  width: 55%;
+}
+
+@media all and ( max-width:500px)
+{
+    .sectionOne .text
+    {
+      width: 100%;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding: 15px;
+      padding-top: 25px;
+      text-align: center;
+      border-radius-top-left: 10px;
+    }
+}
+
+#section-event
+{
+  margin-top: 50px;
+  padding-top: 40px;
+}
+
+#evenTtwo
+{
+  margin: 10px auto;
+  text-align: center;
+}
+
+#evenTtwo i
+{
+  font-size: 1.5em;
+  margin-left: 0.6em;
+}
+
+#evenTtwo .btn
+{
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.section-card
+{
+  margin: 0 auto;
+}
+
+.card-img
+{
+  width: auto;
+  height: 200px;
+}
+
+.section-contact
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.img-contact img
+{
+  width: 400px;
+}
+
+
+.form-contact input, textarea
+{
+  border: none;
+  background-color: #dfe4ea;
+  margin-top: 10px;
+  padding: 10px;
+  width: 400px;
+  border-bottom: 2px solid orange; 
+}
+
+.form-contact textarea
+{
+  height: 150px;
+}
+
+.form-contact input:focus
+{
+  border: none;
+}
+
+
+#footer
+{
+  margin-top: 5em;
+  padding-top: 2em;
+}
+
+.label-footer
+{
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin-bottom: 1em;
+}
+
+.label-footer span
+{
+  color: orange;
+  font-weight: bolder;
+}
+
+#footer li
+{
+  list-style: none;
+}
+
+
+#footer i
+{
+  margin-left: 1em;
+  text-decoration: none;
+}
+
+#carouselExampleSlidesOnly
+{
+  height: 500px;
+}
