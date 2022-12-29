@@ -16,11 +16,57 @@ font-weight: bolder;
 .btn{
   background-color: #53c6cd;
   box-shadow: 1px 1px 1px 1px orange;
+  font-weight: bolder;
 }
 
 .navbar-toggler
 {
   border: 5px solid orange;
+}
+
+.banner
+{
+  height: 400px;
+  width: 100%;
+  margin-bottom: 65px;
+  text-align: center;
+  background-image: url('../images/banner.jpg');
+  
+}
+
+.banner-slide
+{
+  animation-duration: 2.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+      margin-left: 50%;
+      width: 100%;
+  }
+
+  to {
+      margin-left: 25%;
+      width: 50%;
+  }
+}
+
+.banner h2
+{
+  color: orange;
+  font-weight: bolder;
+  padding-top: 4em;
+ 
+}
+
+.banner .btn:hover
+{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid white;
+  background-color: #002327;
 }
 
 .sectionOne
@@ -59,7 +105,7 @@ font-weight: bolder;
 
 #section-event
 {
-  margin-top: 50px;
+  margin-top: 20px;
   padding-top: 40px;
 }
 
@@ -69,27 +115,49 @@ font-weight: bolder;
   text-align: center;
 }
 
+#evenTtwo p {text-align: justify}
+
+
 #evenTtwo i
 {
   font-size: 1.5em;
   margin-left: 0.6em;
 }
 
-#evenTtwo .btn
+#evenTtwo .suivre-reseau
 {
-  margin-top: 30px;
-  margin-bottom: 60px;
+  text-align: center;
+  fon-size: 20px;
+  font-weight: bold;
+  color: black;
 }
+
 
 .section-card
 {
+  padding: 0px;
+}
+
+.card
+{
+  width: 250px;
+  height: 300px;
+  box-shadow: 1px 2px 1px 0px gray;
   margin: 0 auto;
+  padding: 0px;
 }
 
 .card-img
 {
-  width: auto;
-  height: 200px;
+  width: 180px;
+  height: 130px;
+  margin: 15px auto;
+}
+
+.card-body
+{
+  position: relative;
+  top: -25px;
 }
 
 .section-contact
@@ -128,6 +196,66 @@ font-weight: bolder;
 {
   border: none;
 }
+
+@media all and ( max-width:420px)
+{
+    .form-contact input, textarea
+  {
+    width: 350px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .img-contact img
+  {
+    width: 350px;
+  }
+
+
+}
+
+.apropos img
+{
+  width: 400px;
+  height: 200px;
+
+}
+
+.apropos-content
+{
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+.apropos .logo
+{
+  height: 10x;
+  float: left;
+  color: orange;
+  font-weight: bold;
+  padding-right: 12px;
+}
+
+.services 
+{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+
+.services .element 
+{
+  width: 250px;
+}
+
+.services .element h4 i { color: orange}
+{
+  width: 250px;
+}
+
 
 
 #footer
